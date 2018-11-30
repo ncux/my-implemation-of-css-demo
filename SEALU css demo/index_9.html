@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SEALU css demo</title>
+    <link href="styles/navbar-style.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="styles/bootstrap4-growth.min.css" rel="stylesheet">
+    <!-- Animation -->
+    <link href="styles/animate.css" rel="stylesheet">
+    <!-- prettyphoto -->
+    <!-- Bootsrap modal -->
+    <link href="styles/bootstrap-modal-carousel.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles/theme.css" rel="stylesheet">
+    <!-- Responsive styles-->
+    <link href="styles/responsive.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <!-- FontAwesome -->
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    <!-- Elegant icon font -->
+    <link href="styles/line-icons.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target="navbar-fixed-top">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">SEALU</a>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<section id="section-intro">
+    <div class="bg-overlay"></div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-5">
+                <div class="carousel slide" id="banner-slider" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#banner-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#banner-slider" data-slide-to="1"></li>
+                        <li data-target="#banner-slider" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="intro-caption">
+                                <div class="subtitle">we are a tech company</div>
+                                <h1>Let us solve your tech problems</h1>
+                                <div class="btn-container wow fadeInUp">
+                                    <a href="#" class="btn btn-white ">Discover</a>
+                                    <a href="#" class="btn btn-black">contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="intro-caption">
+                                <div class="subtitle">we are committed</div>
+                                <h1>Excellent software solutions</h1>
+                                <div class="btn-container wow fadeInUp">
+                                    <a href="#" class="btn btn-white ">Discover</a>
+                                    <a href="#" class="btn btn-black">contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="intro-caption">
+                                <div class="subtitle">great 24/7 support</div>
+                                <h1>24/7 premium support</h1>
+                                <div class="btn-container wow fadeInUp">
+                                    <a href="#" class="btn btn-white ">Discover</a>
+                                    <a href="#" class="btn btn-black">contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- row end  -->
+    </div><!-- container end  -->
+</section>
+
+
+<!--may be removed-->
+<div class="align-content-center my-5">
+    <h2 class="text-center">Works showcase</h2>
+</div>
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Slight mask</h3>
+                <p>Third text</p>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+<!--  row end -->
+
+
+<!--  section services start -->
+<section id="section-services" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <p>professionalism with commitment</p>
+                    <h2>what we actually do</h2>
+                </div>
+            </div>
+        </div>
+        <!--  row end -->
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="service-box active">
+                    <img src="images/what%20we%20actually%20do/branding.png" alt="Branding">
+                    <h4>Branding</h4>
+                    <p>Doloremque deserunt maxime non. Labore inventore tenetur laboriosam alias nesciunt eaque sit libero, placeat nisi minus.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="service-box active">
+                    <img src="images/what%20we%20actually%20do/marketing.png" alt="Marketing">
+                    <h4>Marketing</h4>
+                    <p>Doloremque deserunt maxime non. Labore inventore tenetur laboriosam alias nesciunt eaque sit libero, placeat nisi minus.</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-box">
+                    <img src="images/what%20we%20actually%20do/web%20design.png" alt="Web design">
+                    <h4>Web Design</h4>
+                    <p>Doloremque deserunt maxime non. Labore inventore tenetur laboriosam alias nesciunt eaque sit libero, placeat nisi minus.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="service-box">
+                    <img src="images/what%20we%20actually%20do/app%20design.png" alt="App design">
+                    <h4>App Design</h4>
+                    <p>Doloremque deserunt maxime non. Labore inventore tenetur laboriosam alias nesciunt eaque sit libero, placeat nisi minus.</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-box">
+                    <img src="images/what%20we%20actually%20do/web%20development.png" alt="Web development">
+                    <h4>Web Development</h4>
+                    <p>Doloremque deserunt maxime non. Labore inventore tenetur laboriosam alias nesciunt eaque sit libero, placeat nisi minus.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="service-box">
+                    <img src="images/what%20we%20actually%20do/app%20development.png" alt="App development">
+                    <h4>App Development</h4>
+                    <p>Doloremque deserunt maxime non. Labore inventore tenetur laboriosam alias nesciunt eaque sit libero, placeat nisi minus.</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <!--  row end -->
+    </div>
+    <!--  container end -->
+</section>
+<!--  section services end -->
+
+<!-- section portfolio start -->
+<section id="section-portfolio" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <p>our great experience</p>
+                    <h2>works showcase</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="item-box single-portfolio">
+                    <figure>
+                        <a href="#" data-toggle="modal" data-target="#portfolio1">
+                            <div class="img-box"> <img src="images/portfolio/1.jpeg" alt="" />
+                                <div class="img-overlay"></div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="item-box single-portfolio">
+                    <figure>
+                        <a href="#" data-toggle="modal" data-target="#portfolio1">
+                            <div class="img-box"> <img src="images/portfolio/2.jpeg" alt="" />
+                                <div class="img-overlay"></div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="item-box single-portfolio">
+                    <figure>
+                        <a href="#" data-toggle="modal" data-target="#portfolio1">
+                            <div class="img-box"> <img src="images/portfolio/3.jpeg" alt="" />
+                                <div class="img-overlay"></div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+
+            </div>
+            <div class="col-md-5">
+                <div class="item-box single-portfolio">
+                    <figure>
+                        <a href="#" data-toggle="modal" data-target="#portfolio1">
+                            <div class="img-box"> <img src="images/portfolio/4.jpeg" alt="" />
+                                <div class="img-overlay"></div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="item-box single-portfolio">
+                    <figure>
+                        <a href="#" data-toggle="modal" data-target="#portfolio1">
+                            <div class="img-box"> <img src="images/portfolio/5.png" alt="" />
+                                <div class="img-overlay"></div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-box single-portfolio">
+                    <figure>
+                        <a href="#" data-toggle="modal" data-target="#portfolio1">
+                            <div class="img-box"> <img src="images/portfolio/6.jpeg" alt="" />
+                                <div class="img-overlay"></div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+                <div class="item-box single-portfolio">
+                    <figure>
+                        <a href="#" data-toggle="modal" data-target="#portfolio1">
+                            <div class="img-box"> <img src="images/portfolio/portfolio3.jpg" alt="" />
+                                <div class="img-overlay"></div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Container Full End -->
+    <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+
+    <!-- Portfolio1 fullscreen modal -->
+    <div id="portfolio1" class="modal fade modal-fullscreen force-fullscreen" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-title">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2>Project Details</h2> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row top-margin">
+                            <div class="col-md-4"> <img src="images/portfolio/portfolio6.jpg" alt="" class="img-responsive center-block"> </div>
+                            <div class="col-md-8">
+                                <h3>Project Name</h3>
+                                <p>Title of project</p>
+                                <h3>Project Description </h3>
+                                <p>Ipsum partem voluptatibus ex nam, prima virtute electram ius ei, vide error intellegat id cum. Duo ut accumsan molestie. Feugait referrentur vel in, te nostro convenire per, nullam nostrud placerat cum ne. Ne ancillae expetenda nec, dicam oportere te mel, audiam mnesarchum.</p> <a href="#" class="btn btn-black">View demo</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="button" class="btn custom-btn-2 pull-left" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Portfolio1 fullscreen modal -->
+</section>
+
+<div class="align-content-center my-5">
+    <h2 class="text-center">Products and Services</h2>
+</div>
+<!-- section portfolio end -->
+
+<!-- introduction slideshow section -->
+<section id="introduction " class="justify-content-center align-items-center">
+
+    <div id="demo" class="carousel slide justify-content-center align-items-center" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner align-items-center align-self-center mx-auto justify-content-center">
+            <div class="carousel-item active align-items-center align-self-center justify-content-center mx-auto">
+                <img src="images/tech/1.jpeg" alt="Systems diagnostics" style="width: 100%" class="justify-content-center align-items-center align-self-center mx-auto">
+                <div class="carousel-caption">
+                    <h3>Systems diagnostics</h3>
+                </div>
+            </div>
+            <div class="carousel-item align-items-center align-self-center justify-content-center mx-auto">
+                <img src="images/tech/2.jpg" alt="Software solutions" style="width: 100%" class="justify-content-center align-items-center align-self-center mx-auto">
+                <div class="carousel-caption">
+                    <h3>Software solutions</h3>
+                </div>
+            </div>
+            <div class="carousel-item align-items-center align-self-center justify-content-center mx-auto">
+                <img src="images/tech/3.jpg" alt="Mobile" style="width: 100%" class="justify-content-center align-items-center align-self-center mx-auto">
+                <div class="carousel-caption">
+                    <h3>Mobile</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+</section>
+<!-- end of introduction slideshow container -->
+
+
+
+
+<!-- section contact start -->
+<section id="section-contact" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading text-center">
+                    <p>want to get connected?</p>
+                    <h2>contact us</h2>
+                </div>
+            </div>
+        </div>
+        <!--  row heading end -->
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="contact-info">
+                    <li class="info-block">
+                        <div class="icon-block">
+                            <img src="images/contact/phone.png" alt="Call us">
+                        </div>
+
+                        <h4>Call us now</h4>
+                        <p>400-825-8256</p>
+                    </li>
+                    <li class="info-block">
+                        <div class="icon-block align-items-center align-content-between align-content-center">
+                            <img src="images/contact/email.png" alt="Email us">
+                        </div>
+                        <h4>Email us</h4>
+                        <p>sales@sealu.net</p>
+                        <p>www.sealu.net</p>
+                    </li>
+                    <li class="info-block">
+                        <div class="icon-block">
+                            <img src="images/contact/location.png" alt="Our location">
+                        </div>
+                        <h4>Find us</h4>
+                        <p> 上海市闵行区顾戴路2658号3号楼808 </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8  wow fadeInRight">
+                <div class="contact-box">
+                    <form id="contactForm" data-toggle="validator" method="get" action="form-process.php">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="NAME" required data-error="type your name">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="EMAIL" required data-error="type your email">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" name="subject" id="subject" class="form-control" placeholder="SUBJECT" required data-error="type your subject">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea id="message" name="message" cols="30" rows="10" class="textarea-block form-control" placeholder="MESSAGE" required data-error="type your message"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12  text-right wow fadeInUp text-center">
+                            <button class="btn btn-black " id="submit" type="submit" value="Submit">Send</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- row end -->
+    </div>
+    <!-- container end -->
+</section>
+<!-- section contact end -->
+
+
+<!--  Footer start  -->
+<section id="footer" class="section-padding " style="background: silver">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <!--						<img src="assets/img/logo.png" alt="" class="img-responsive"> -->
+                    <h2>SEALU</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa consectetur assumenda est unde animi. Repellat quibusdam et ad aut molestias, facere maxime expedita sint.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa  fa-angle-right"></i>Financial Analysis</a></li>
+                        <li><a href="#"><i class="fa  fa-angle-right"></i>Financial planner</a></li>
+                        <li><a href="#"><i class="fa  fa-angle-right"></i>Consulting</a></li>
+                        <li><a href="#"><i class="fa  fa-angle-right"></i>Creative ideas</a></li>
+                        <li><a href="#"><i class="fa  fa-angle-right"></i>Market Research</a></li>
+                        <li><a href="#"><i class="fa  fa-angle-right"></i>Investment Adviser</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget tags">
+                    <h3>Top categories</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">graphics</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">branding</a></li>
+                        <li><a href="#">App development</a></li>
+                        <li><a href="#">Web development</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  Footer end  -->
+
+
+<!-- section footer strat -->
+<footer id="section-footer" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-content">
+                    <h4 class="wow fadeInUp">Copyright &copy; 2018. SEALU Intelligent Technology Co, Ltd <a href="http://www.sealu.net" target="_blank"></a></h4>
+                </div>
+            </div>
+        </div><!-- row end  -->
+    </div><!-- container end  -->
+</footer>
+<!-- section contact address end -->
+
+<script src="scripts/navbar-sticker.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+
+<!-- form validation -->
+<script src="scripts/validator.min.js"></script>
+<script src="scripts/form-scripts.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.min.js"></script>
+<!-- isotope -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>    <!-- isotope -->
+<script src="scripts/waypoint.js"></script>
+<!-- Wow Animation -->
+<script src="scripts/wow.min.js"></script>
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<!-- Custom Theme JavaScript -->
+<script src="scripts/theme.js"></script>
+
+</body>
+</html>

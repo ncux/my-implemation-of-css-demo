@@ -1,0 +1,29 @@
+
+/* style for fixing the navbar */
+
+nav {
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* applied after scroll height reached */
+.fixed-nav nav {
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+
+/* end of style for fixing the navbar */
+
+/* CSS grid for introduction section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 1rem;
+}
+
+/* end of CSS grid for introduction section */
